@@ -37,3 +37,8 @@ function biomulation()
   get_template_part( 'biomulation', 'page' );
 }
 add_shortcode( 'biomulation', 'biomulation' );
+function bio_slider() 
+{
+  get_template_part( 'bio-slider', 'page' );
+}
+add_shortcode( 'bio-slider', 'bio_slider' );
