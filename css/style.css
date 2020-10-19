@@ -4499,3 +4499,6 @@ section.aging.healthy-pbm .aging-img {
         margin-top: 10px;
     }
 }
+.clock .timing .time-data p {
+    text-transform: capitalize;
+}

@@ -48,229 +48,71 @@
                         <div class="results-found">
                             <div class="heading">
                                 <h4>
-                                    6 Results Found
+                                <?php $couter = 0; if( have_rows('office_locations', 'option') ): while( have_rows('office_locations', 'option') ) : the_row(); ?>
+
+								<?php $couter ++; endwhile; else : endif; ?>
+                                    <?php echo $couter; ?> Results Found
                                 </h4>
                             </div>
                             <div class="result-slider owl-carousel owl-theme">
-                                <div class="item">
-                                    <div class="result-box">
-                                        <h3>Quick Chill Recovery</h3>
-                                        <div class="address-area">
-                                            <div class="address-flex">
-                                                <div class="icon">
-                                                    <img src="images/address.png" alt="">
-                                                </div>
-                                                <div class="address-text">
-                                                    <p>115 North Thomas Street, Tupelo MS 38801, United States</p>
-                                                </div>
-                                            </div>
-                                            <div class="address-flex">
-                                                <div class="icon">
-                                                    <img src="images/mil.png" alt="">
-                                                </div>
-                                                <div class="address-text">
-                                                    <p>437.2 mi</p>
-                                                </div>
-                                            </div>
-                                            <div class="address-flex">
-                                                <div class="icon">
-                                                    <img src="images/phn.png" alt="">
-                                                </div>
-                                                <div class="address-text">
-                                                    <a href="tel:(630)597-8936">(630)597-8936</a>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="clock">
-                                            <div class="hours">
-                                                <div class="icon">
-                                                    <img src="images/clock.png" alt="">
-                                                </div>
-                                                <div class="hours-text">
-                                                    <p>Working Hours</p>
-                                                </div>
-                                            </div>
-                                            <div class="timing">
-                                                <div class="time-data">
-                                                    <p>Monday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Tuesday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Wednesday</p>
-                                                    <p>9:00 AM - 7:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Thursday	</p>
-                                                    <p>9:00 AM - 7:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Friday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Saturday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Sunday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="item">
-                                    <div class="result-box">
-                                        <h3>Quick Chill Recovery</h3>
-                                        <div class="address-area">
-                                            <div class="address-flex">
-                                                <div class="icon">
-                                                    <img src="images/address.png" alt="">
-                                                </div>
-                                                <div class="address-text">
-                                                    <p>115 North Thomas Street, Tupelo MS 38801, United States</p>
-                                                </div>
-                                            </div>
-                                            <div class="address-flex">
-                                                <div class="icon">
-                                                    <img src="images/mil.png" alt="">
-                                                </div>
-                                                <div class="address-text">
-                                                    <p>437.2 mi</p>
-                                                </div>
-                                            </div>
-                                            <div class="address-flex">
-                                                <div class="icon">
-                                                    <img src="images/phn.png" alt="">
-                                                </div>
-                                                <div class="address-text">
-                                                    <a href="tel:(630)597-8936">(630)597-8936</a>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="clock">
-                                            <div class="hours">
-                                                <div class="icon">
-                                                    <img src="images/clock.png" alt="">
-                                                </div>
-                                                <div class="hours-text">
-                                                    <p>Working Hours</p>
-                                                </div>
-                                            </div>
-                                            <div class="timing">
-                                                <div class="time-data">
-                                                    <p>Monday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Tuesday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Wednesday</p>
-                                                    <p>9:00 AM - 7:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Thursday	</p>
-                                                    <p>9:00 AM - 7:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Friday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Saturday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Sunday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <div class="item">
-                                    <div class="result-box">
-                                        <h3>Quick Chill Recovery</h3>
-                                        <div class="address-area">
-                                            <div class="address-flex">
-                                                <div class="icon">
-                                                    <img src="images/address.png" alt="">
-                                                </div>
-                                                <div class="address-text">
-                                                    <p>115 North Thomas Street, Tupelo MS 38801, United States</p>
-                                                </div>
-                                            </div>
-                                            <div class="address-flex">
-                                                <div class="icon">
-                                                    <img src="images/mil.png" alt="">
-                                                </div>
-                                                <div class="address-text">
-                                                    <p>437.2 mi</p>
-                                                </div>
-                                            </div>
-                                            <div class="address-flex">
-                                                <div class="icon">
-                                                    <img src="images/phn.png" alt="">
-                                                </div>
-                                                <div class="address-text">
-                                                    <a href="tel:(630)597-8936">(630)597-8936</a>
-                                                </div>
-                                            </div>
-                                            
-                                        </div>
-                                        <div class="clock">
-                                            <div class="hours">
-                                                <div class="icon">
-                                                    <img src="images/clock.png" alt="">
-                                                </div>
-                                                <div class="hours-text">
-                                                    <p>Working Hours</p>
-                                                </div>
-                                            </div>
-                                            <div class="timing">
-                                                <div class="time-data">
-                                                    <p>Monday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Tuesday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Wednesday</p>
-                                                    <p>9:00 AM - 7:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Thursday	</p>
-                                                    <p>9:00 AM - 7:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Friday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Saturday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                                <div class="time-data">
-                                                    <p>Sunday</p>
-                                                    <p>9:00 AM - 5:00 PM</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
+                            	<?php if( have_rows('office_locations', 'option') ): while( have_rows('office_locations', 'option') ) : the_row(); ?>
+	                                <div class="item">
+	                                    <div class="result-box">
+	                                        <h3>Quick Chill Recovery</h3>
+	                                        <div class="address-area">
+	                                            <div class="address-flex">
+	                                                <div class="icon">
+	                                                    <img src="<?php echo get_template_directory_uri(); ?>/images/address.png" alt="">
+	                                                </div>
+	                                                <div class="address-text">
+	                                                    <p><?php the_sub_field('location', 'option'); ?></p>
+	                                                </div>
+	                                            </div>
+	                                        	<?php if(get_sub_field('mi_value', 'option')) { ?>
+	                                            <div class="address-flex">
+	                                                <div class="icon">
+	                                                    <img src="<?php echo get_template_directory_uri(); ?>/images/mil.png" alt="">
+	                                                </div>
+	                                                <div class="address-text">
+	                                                    	<p><?php the_sub_field('mi_value'); ?></p>
+	                                                </div>
+	                                            </div>
+	                                            <?php }  ?>
+	                                            <div class="address-flex">
+	                                                <div class="icon">
+	                                                    <img src="<?php echo get_template_directory_uri(); ?>/images/phn.png" alt="">
+	                                                </div>
+	                                                <div class="address-text">
+	                                                    <a href="tel:<?php the_sub_field('phone_number_', 'option'); ?>"><?php the_sub_field('phone_number_', 'option'); ?></a>
+	                                                </div>
+	                                            </div>
+	                                        </div>
+	                                        <div class="clock">
+	                                            <div class="hours">
+	                                                <div class="icon">
+	                                                    <img src="<?php echo get_template_directory_uri(); ?>/images/clock.png" alt="">
+	                                                </div>
+	                                                <div class="hours-text">
+	                                                    <p>Working Hours</p>
+	                                                </div>
+	                                            </div>
+	                                            <div class="timing">
+	                                            	<?php
+														if( have_rows('working_hours', 'option') ):
+														    while( have_rows('working_hours', 'option') ) : the_row(); ?>
+				                                                <div class="time-data">
+				                                                    <p><?php the_sub_field('working_day', 'option') ?></p>
+				                                                    <p><?php the_sub_field('working_hours', 'option'); ?></p>
+				                                                </div>
+														    <?php endwhile;
+														else :
+														endif;
+													?>
+	                                            </div>
+	                                        </div>
+	                                    </div>
+	                                </div>
+							    <?php endwhile; else : endif; ?>
                             </div>
                         </div>
                     </div>
