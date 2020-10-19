@@ -299,42 +299,30 @@
                     <div class="join-arrc">
                         <div class="join-arrc-heading">
                             <h2>
-                                JOIN ARRC’S PHOTOBIOMODULATION
-                                RESEARCH COMMUNITY
+                               <?php the_field('headingjoin'); ?>
                             </h2>
                             <h4>
-                                Joining our community means you will receive in addition to Manufacturer Direct Pricing
-                                Quotes
+                                <?php the_field('sub_headingjoin'); ?>
                             </h4>
                         </div>
                         <ul>
+                        	<?php 	if( have_rows('list_itemsjoin') ): while( have_rows('list_itemsjoin') ) : the_row(); ?>
                             <li>
-                                Research Updates from the latest Clinical Trials on PBMt.
+                                <?php the_sub_field('itemjoin'); ?>
                             </li>
+                            <?php endwhile; else : endif; ?>
                         </ul>
-
                     </div>
-
                 </div>
-
                 <div class="col-lg-6">
-
                     <div class="join-us-form">
-
                         <div class="join-us-form-heading">
-
                             <h3>
-
                                 Join our community!<br>
-
                                 Please fill the form below
-
                             </h3>
-
                         </div>
-
                         <div class="form">
-
                             <form>
 
                                 <div class="form-group">
@@ -382,17 +370,11 @@
                                     <input type="submit" value="JOIN NOW!">
 
                                 </div>
-
                             </form>
-
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
         </div>
     </section>
 
@@ -403,17 +385,15 @@
 
             <div class="call-us-heading">
 
-                <h2>Call Us Anytime </h2>
+                <h2><?php the_field('headingcta_call_us', 'option'); ?> </h2>
 
-                <p>If you’re feeling lost or confused, feel free to call and speak 
-
-                    with our customer care service</p>
+                <p><?php the_field('contenheadingcta_call_us', 'option');?></p>
 
             </div>
 
             <div class="call-us-btn">
 
-                <a href="tel:855.502.2772">855.502.2772</a>
+                <a href="tel:<?php the_field('phone_number', 'option'); ?>"><?php the_field('phone_number', 'option'); ?></a>
 
             </div>
 
