@@ -323,54 +323,7 @@
                             </h3>
                         </div>
                         <div class="form">
-                            <form>
-
-                                <div class="form-group">
-
-                                    <label for="">Name</label>
-
-                                    <input type="text" class="form-control">
-
-                                </div>
-
-                                <div class="form-group">
-
-                                    <label for="">Email Address</label>
-
-                                    <input type="email" class="form-control">
-
-                                </div>
-
-                                <div class="form-group">
-
-                                    <label for="">Phone*</label>
-
-                                    <input type="tel" class="form-control">
-
-                                </div>
-
-                                <div class="form-group">
-
-                                    <label for="">subject</label>
-
-                                    <input type="text" class="form-control">
-
-                                </div>
-
-                                <div class="form-group">
-
-                                    <label for="">Message</label>
-
-                                    <textarea rows="5" class="form-control"> </textarea>
-
-                                </div>
-
-                                <div class="join-form-btn">
-
-                                    <input type="submit" value="JOIN NOW!">
-
-                                </div>
-                            </form>
+                            <?php echo do_shortcode('[contact-form-7 id="95" title="Contact form 1"]'); ?>
                         </div>
                     </div>
                 </div>
@@ -400,3 +353,5 @@
         </div>
     </section>
 <?php get_footer(); ?>
+
+
