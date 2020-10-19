@@ -4502,3 +4502,6 @@ section.aging.healthy-pbm .aging-img {
 .clock .timing .time-data p {
     text-transform: capitalize;
 }
+section.video-section.background-position {
+    display: none;
+}

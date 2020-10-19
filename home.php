@@ -218,14 +218,10 @@
     </section>
     <section class="machine-imgs">
         <div class="character">
-
-            <img src="images/atp.png" alt="">
-
+            <img src="<?php echo get_template_directory_uri(); ?>/images/atp.png" alt="">
         </div>
         <div class="character">
-
-            <img src="images/Elysium-Device.png" alt="">
-
+            <img src="<?php echo get_template_directory_uri(); ?>/images/Elysium-Device.png" alt="">
         </div>
         <div class="character-blackbar">
         	<div class="container">
@@ -242,90 +238,26 @@
         </div>
         <div class="machine-main">
 
-            <img src="images/white-machine.png" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/white-machine.png" alt="">
 
         </div>
     </section>
+
+
     <section class="whole-body">
-
         <div class="container">
-
             <div class="whole-body-heading">
-
                 <h2>Arrc Led Whole Body LED Light Therapy Beds </h2>
-
             </div>
-
             <div class="whole-body-list">
-
                 <ul>
-
+                	<?php 	if( have_rows('happy_clients') ): while( have_rows('happy_clients') ) : the_row(); ?>
                     <li>
-
                         <a href="#.">
-
                             Dose Optimized Photobiomodulation
-
                         </a>
-
                     </li>
-
-                    <li>
-
-                        <a href="#.">
-
-                            Manufacturer Direct
-
-
-
-                        </a>
-
-                    </li>
-
-                    <li>
-
-                        <a href="#.">
-
-                            Patent Pending Medical Diagnostic PBMT Protocols
-
-                        </a>
-
-                    </li>
-
-                    <li>
-
-                        <a href="#.">
-
-                            Quality and Support
-
-
-
-                        </a>
-
-                    </li>
-
-                    <li>
-
-                        <a href="#.">
-
-                            ARRC LED SPECS
-
-                        </a>
-
-                    </li>
-
-                    <li>
-
-                        <a href="#.">
-
-                            World Class Quality and Support
-
-                        </a>
-
-                    </li>
-
                 </ul>
-
             </div>
 
         </div>
