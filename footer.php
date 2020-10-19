@@ -66,17 +66,17 @@
         </div>
     </footer>
     <!-- jQuery Version 3.2.1 -->
-    <script src="js/jquery-3.4.1.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery-3.4.1.js"></script>
     <!-- fancybox -->
-    <script src="js/fancybox.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/fancybox.js"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.min.js"></script>
     <!-- owl slider -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.min.js"></script>
     <!-- swiper-slider -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- custom js -->
-    <script src="js/script.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/script.js"></script>
 </body>
 <?php wp_footer(); ?>
 </html>
