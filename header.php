@@ -9,32 +9,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
-
     <title>ARRC Led</title>
-    <!-- favicon -->
     <link rel="icon" href="images/logo-new.png" type="image/png" sizes="16x16">
-
-    <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- font-awesum -->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <!--themify-icons -->
     <link rel="stylesheet" href="css/themify-icons.css">
-    <!-- owl.carousel -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <!-- fancybox -->
     <link rel="stylesheet" href="css/fancybox.css">
-    <!-- swiper slider -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>css/style.css">
 
 </head>
 <?php wp_head(); ?>
-<body <?php echo bodyClass(); ?>> 
-
+<body> 
     <header class="header">
 
         <nav class="navbar navbar-expand-lg  fixed-top">
