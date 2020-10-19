@@ -132,11 +132,10 @@
         <div class="container">
             <div class="call-us-heading">
                 <h2>Call Us Anytime </h2>
-                <p>If you’re feeling lost or confused, feel free to call and speak
-                    with our customer care service</p>
+                <p><?php the_field('address_company', 'option'); ?></p>
             </div>
             <div class="call-us-btn">
-                <a href="tel:855.502.2772">855.502.2772</a>
+                <a href="tel:<?php the_field('phone_number', 'option'); ?>"><?php the_field('phone_number', 'option'); ?></a>
             </div>
         </div>
     </section>

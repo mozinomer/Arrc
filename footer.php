@@ -12,17 +12,17 @@
                     </p>
                     <ul>
                         <li>
-                            <a href="#.">
+                            <a href="<?php the_field('facebook_link', 'option'); ?>">
                                 <i class="fa fa-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#.">
+                            <a href="<?php the_field('twitter_link', 'option'); ?>">
                                 <i class="fa fa-twitter"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#.">
+                            <a href="<?php the_field('instagram', 'option'); ?>">
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </li>
@@ -40,7 +40,7 @@
                         <div class="icon">
                             <i class="fa fa-envelope"></i>
                         </div>
-                        <a href="mailto:info@arrcled.com">info@arrcled.com</a>
+                        <a href="mailto:<?php the_field('company_email', 'option'); ?>"><?php the_field('company_email', 'option'); ?></a>
                     </div>
                     <div class="phn flex">
                         <div class="icon">
