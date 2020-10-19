@@ -32,3 +32,8 @@ function ClientHappy()
   get_template_part( 'clientHappy', 'page' );
 }
 add_shortcode( 'ClientHappy', 'ClientHappy' );
+function biomulation() 
+{
+  get_template_part( 'biomulation', 'page' );
+}
+add_shortcode( 'biomulation', 'biomulation' );

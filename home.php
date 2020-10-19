@@ -8,105 +8,13 @@
 	<div class="ClientHappy">
 	    <?php do_shortcode('[ClientHappy]');?>
     </div>
+
+	<div class="biomulation">
+	    <?php do_shortcode('[biomulation]');?>
+    </div>
+
+
     
-    <section class="biomulation">
-
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-lg-6">
-
-                    <div class="biomodule-text">
-
-                        <div class="biomodule-heading">
-
-                            <h2>What is Photobiomodulation?</h2>
-
-                            <p>
-
-                                Phasellus dignissim, tellus in pellentesque mollis, mauris orci dignissim nisl, id
-
-                                gravida nunc enim quis nibh. Maecenas convallis eros a ante dignissim, vitae elementum
-
-                                metus facilisis. Cras in maximus sem.
-
-                            </p>
-
-                        </div>
-
-                        <div class="bio-mobdule-list">
-
-                            <ul>
-
-                                <li>
-
-                                    Definition
-
-                                </li>
-
-                                <li>
-
-                                    General Effects
-
-                                </li>
-
-                                <li>
-
-                                    Downstream Benefits
-
-                                </li>
-
-                            </ul>
-
-                        </div>
-
-
-
-                    </div>
-
-                    <div class="doc-intor">
-
-                        <div class="doc-img">
-
-                            <img src="images/doc.png" alt="">
-
-                        </div>
-
-                        <div class="doc-intro-text">
-
-                            <h3><span>Dr Hamblin</span> - NIH </h3>
-
-                            <p>
-
-                                World Class<br>
-
-                                Photobiomodulation <br>
-
-                                Advisers
-
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <div class="col-lg-6">
-
-                    <div class="biomodule-img">
-
-                        <img src="images/red-door.jpeg" alt="">
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-    </section>
     <section class="bio-slider "  >
 
         <div class="side-container">
