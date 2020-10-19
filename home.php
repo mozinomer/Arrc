@@ -247,215 +247,70 @@
     <section class="whole-body">
         <div class="container">
             <div class="whole-body-heading">
-                <h2>Arrc Led Whole Body LED Light Therapy Beds </h2>
+                <h2><?php the_field('headingwhole-body'); ?> </h2>
             </div>
             <div class="whole-body-list">
                 <ul>
-                	<?php 	if( have_rows('happy_clients') ): while( have_rows('happy_clients') ) : the_row(); ?>
+                	<?php 	if( have_rows('list_itemwhole-body') ): while( have_rows('list_itemwhole-body') ) : the_row(); ?>
                     <li>
-                        <a href="#.">
-                            Dose Optimized Photobiomodulation
+                        <a href="<?php the_sub_field('itemwhole-bodylink'); ?>">
+                            <?php the_sub_field('itemwhole-body'); ?>
                         </a>
                     </li>
+                    <?php endwhile; else : endif; ?>
                 </ul>
             </div>
 
         </div>
     </section>
+
     <section class="company">
-
         <div class="company-heading">
-
             <h2>
-
-                <span>You’re in Good </span>
-
-                Company!
-
+                <?php the_field('hedingcompany'); ?>
             </h2>
-
         </div>
-
         <div class="company-slider">
-
             <div class="owl-carousel owl-theme company-owl">
+            	<?php 	if( have_rows('slider_company') ): while( have_rows('slider_company') ) : the_row(); ?>
                 <div class="item">
-
                     <div class="slide-data">
-
                         <div class="star-img">
-
-                            <img src="images/star.png" alt="">
-
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/star.png" alt="">
                         </div>
-
                         <h3>
-
-                            “I am addicted to the incredible ATP system! I’ve done over 20 sessions now and just like you said, I feel better and better after each session.”
-
+                            <?php the_sub_field('contentcompany'); ?>
                         </h3>
-
                         <h5>
-
-                            - Jim Marks, Executive Tan – Denver CO
-
+                            <?php the_sub_field('headingcompany'); ?>
                         </h5>
-
                     </div>
                 </div>
-                <div class="item">
-
-                    <div class="slide-data">
-
-                        <div class="star-img">
-
-                            <img src="images/star.png" alt="">
-
-                        </div>
-
-                        <h3>
-
-                          “I am addicted to the light bed!”
-
-                        </h3>
-
-                        <h5>
-
-                            - Ennia, Physical Therapist, United States Air Force
-
-                        </h5>
-
-                    </div>
-                </div>
-                <div class="item">
-
-                    <div class="slide-data">
-
-                        <div class="star-img">
-
-                            <img src="images/star.png" alt="">
-
-                        </div>
-
-                        <h3>
-                            “I couldn't be happier! We are doing 10-15 sessions a day really without even trying.”
-                         </h3>
-
-                        <h5>
-
-                            - Mark, Body Centre, Newport Beach, CA
-
-                        </h5>
-
-                    </div>
-                </div>
-                <div class="item">
-
-                    <div class="slide-data">
-
-                        <div class="star-img">
-
-                            <img src="images/star.png" alt="">
-
-                        </div>
-
-                        <h3>
-                            “You come out with a Rife machine in a light bed and Game Over! I couldn’t be happier, We are running 10-15 sessions a day in the bed without even trying.”
-                        </h3>
-
-                        <h5>
-
-                            - Marc Ainsworth, Body Centre – California
-
-                        </h5>
-
-                    </div>
-                </div>
-                <div class="item">
-
-                    <div class="slide-data">
-
-                        <div class="star-img">
-
-                            <img src="images/star.png" alt="">
-
-                        </div>
-
-                        <h3>
-                            “Game Over! If you can pulse multiple wavelengths within the same session and create preset pulse combinations, you have a Game Changer.”
-                        </h3>
-
-                        <h5>
-
-                            - Dr. Penny, 100 Mile Center
-
-                        </h5>
-
-                    </div>
-                </div>
+                <?php endwhile; else : endif; ?>
             </div>
         </div>
     </section>
+
+
     <section class="join-us">
-
         <div class="side-container">
-
             <div class="row">
-
                 <div class="col-lg-6">
-
                     <div class="join-arrc">
-
                         <div class="join-arrc-heading">
-
                             <h2>
-
                                 JOIN ARRC’S PHOTOBIOMODULATION
-
                                 RESEARCH COMMUNITY
-
                             </h2>
-
                             <h4>
-
                                 Joining our community means you will receive in addition to Manufacturer Direct Pricing
-
                                 Quotes
-
                             </h4>
-
                         </div>
-
                         <ul>
-
                             <li>
-
                                 Research Updates from the latest Clinical Trials on PBMt.
-
                             </li>
-
-                            <li>
-
-                                Diagnosis Specific Podcasts with Dr Michael Hamblin. These are interviews with Dr
-
-                                Hamblin about how PBMt works on specific diagnostics.
-
-                            </li>
-
-                            <li>
-
-                                Owner Feedback on what owners are hearing from their clients.
-
-                            </li>
-
-                            <li>
-
-                                Innovation Updates on how the ARRC LED’s new patent pending systems are performing in
-
-                                tests and Latest inventory and pricing.
-
-                            </li>
-
                         </ul>
 
                     </div>
@@ -540,6 +395,8 @@
 
         </div>
     </section>
+
+
     <section class="call-us">
 
         <div class="container">
