@@ -1,239 +1,14 @@
-<!DOCTYPE html>
+<?php /* Template Name: Front Page */ get_header(); ?>
 
 
 
-<html lang="en">
-
-
-
-<head>
-
-
-
-    <meta charset="utf-8">
-
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="">
-
-    <meta name="author" content="">
-
-
-
-
-
-    <title>ARRC Led</title>
-
-    <!-- favicon -->
-
-    <link rel="icon" href="images/logo-new.png" type="image/png" sizes="16x16">
-
-
-
-    <!-- Bootstrap Core CSS -->
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- font-awesum -->
-
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-
-    <!--themify-icons -->
-
-    <link rel="stylesheet" href="css/themify-icons.css">
-
-    <!-- owl.carousel -->
-
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-    <!-- fancybox -->
-
-    <link rel="stylesheet" href="css/fancybox.css">
-
-    <!-- swiper slider -->
-
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
-    <!-- Custom CSS -->
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-
-
-</head>
-
-
-
-<body>
-
-
-
-    <header class="header home">
-    </header>
-
-
-    <section class="banner">
-
-        <div class="main-slider owl-carousel owl-theme">
-
-     
-
-            <div class="slides item">
-
-                <div class="banner-back background-position" style="background-image: url('images/banner-side-img11.png'); "   >
-
-                    <div class="banner-data">
-
-               
-
-
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="slides item">
-
-                <div class="banner-back background-position" style="background-image: url('images/banner-side-img2.png'); ">
-
-                    <div class="banner-data">
-
-                    
-
-
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <div class="slides item">
-
-                <div class="banner-back background-position" style="background-image: url('images/banner-side-img22.png'); "   >
-
-                    <div class="banner-data">
-
-                    
-
-
-
-                    </div>
-
-                </div>
-
-            </div>
-
-      
-
-            <div class="slides item">
-
-                <div class="banner-back background-position" style="background-image: url('images/banner-side-img44.JPG'); ">
-
-                    <div class="banner-data">
-
-                     
-
-
-
-                    </div>
-
-                </div>
-
-            </div>
-
-   
-
-
-
-        </div>
-    </section>
-    <section class="happy-client">
-
-        <div class="client-data">
-
-            <div class="client-heading">
-
-                <h6>
-
-                    OUR <br>
-
-                    HAPPY CLIENTS
-
-                </h6>
-
-            </div>
-
-            <div class="client">
-
-                <ul>
-
-                    <li>
-
-                        <img src="images/cl1.png" alt="">
-
-                    </li>
-
-                    <li>
-
-                        <img src="images/cl2.png" alt="">
-
-                    </li>
-
-                    <li>
-
-                        <img src="images/cl3.png" alt="">
-
-                    </li>
-
-                    <li>
-
-                        <img src="images/cl4.png" alt="">
-
-                    </li>
-
-                    <li>
-
-                        <img src="images/cl5.png" alt="">
-
-                    </li>
-
-                    <li>
-
-                        <img src="images/cl6.png" alt="">
-
-                    </li>
-
-                    <li>
-
-                        <img src="images/cl7.png" alt="">
-
-                    </li>
-
-                </ul>
-
-            </div>
-
-        </div>
-        <div class="client-blackbar">
-            <div class="coontainer">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h3>World Champions, World Leaders</h3>
-                    </div>
-                    <div class="col-lg-6">
-                        <h3>Designed, Built & Sourced in the USA</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+	<div class="sliderHomepage">
+	    <?php do_shortcode('[BannerHome]');?>
+    </div>
+	<div class="ClientHappy">
+	    <?php do_shortcode('[ClientHappy]');?>
+    </div>
+    
     <section class="biomulation">
 
         <div class="container">
@@ -659,7 +434,6 @@
 
         </div>
     </section>
-
     <section class="video-section background-position" style="background-image: url(images/vid-bg.png);">
         <div class="vid-container">
 
@@ -858,7 +632,6 @@
             </div>
         </div>
     </section>
-
     <section class="machine-imgs">
         <div class="character">
 
@@ -889,7 +662,6 @@
 
         </div>
     </section>
-
     <section class="whole-body">
 
         <div class="container">
@@ -973,9 +745,7 @@
             </div>
 
         </div>
-
     </section>
-
     <section class="company">
 
         <div class="company-heading">
@@ -1110,7 +880,6 @@
             </div>
         </div>
     </section>
-
     <section class="join-us">
 
         <div class="side-container">
@@ -1254,9 +1023,7 @@
             </div>
 
         </div>
-
     </section>
-
     <section class="call-us">
 
         <div class="container">
@@ -1278,165 +1045,5 @@
             </div>
 
         </div>
-
     </section>
-
-    <footer>
-
-        <div class="container">
-
-            <div class="footer-top">
-
-                <div class="footer-logo">
-
-                    <img src="images/logo-new.png" alt="">
-
-                </div>
-
-                <div class="social">
-
-                    <p>
-
-                        Quisque suscipit ipsum est, eu venenatis leo ornare eget. Ut porta facilisis elementum. Sed condimentum sed massa quis ullamcorper. Donec at scelerisque neque. Pellentesque sagittis, massa sodales sodales finibus.
-
-                    </p>
-
-                    <ul>
-
-                        <li>
-
-                            <a href="#.">
-
-                                <i class="fa fa-facebook"></i>
-
-                            </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="#.">
-
-                                <i class="fa fa-twitter"></i>
-
-                            </a>
-
-                        </li>
-
-                        <li>
-
-                            <a href="#.">
-
-                                <i class="fa fa-instagram"></i>
-
-                            </a>
-
-                        </li>
-
-                    </ul>
-
-                </div>
-
-                <div class="location">
-
-                    <div class="address flex" >
-
-                        <div class="icon">
-
-                            <i class="fa fa-map-marker"></i>
-
-                        </div>
-
-                        <p>806 E. Avenida Pico, Suite I-267 <br>
-
-                        San Clemente, California, USA</p>
-
-                    </div>
-
-                    <div class="email flex">
-
-                        <div class="icon">
-
-                            <i class="fa fa-envelope"></i>
-
-                        </div>
-
-                        <a href="mailto:info@arrcled.com">info@arrcled.com</a>
-
-                    </div>
-
-                    <div class="phn flex">
-
-                        <div class="icon">
-
-                            <i class="fa fa-phone"></i>
-
-                        </div>
-
-                        <a href="tel:1-855-502-2772">1-855-502-2772</a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="footer-bottom">
-
-            <div class="container">
-
-                <p>
-
-                    © ArrcLED 2020. All rights reserved.
-
-                </p>
-
-                <ul>
-
-                    <li>
-
-                        <a href="#.">Privacy Policy</a>
-
-                    </li>
-
-                    <li><a href="#.">Terms and Conditions</a></li>
-
-                </ul>
-
-            </div>
-
-        </div>
-
-    </footer>
-
-    <!-- jQuery Version 3.2.1 -->
-
-    <script src="js/jquery-3.4.1.js"></script>
-
-    <!-- fancybox -->
-
-    <script src="js/fancybox.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- owl slider -->
-
-    <script src="js/owl.carousel.min.js"></script>
-
-    <!-- swiper-slider -->
-
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <!-- custom js -->
-
-    <script src="js/script.js"></script>
-
-</body>
-
-
-
-</html>
+<?php get_footer(); ?>
